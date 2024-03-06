@@ -38,16 +38,15 @@ def main():
     - Political views: {political_views}
     - Age: {age_range}
     - Occupation: {occupation}
-    Output only the passwords, nothing else dont number them. Use special characters and numbers, be the best pawsword generator you can be.
-    Make up to 500 passwords.
-    """
+    Output only the passwords, nothing else don't number them. Use special characters and numbers, and be the best password generator you can be.
+    Make up to 500 passwords. """
     
     # Example user inputs; these can be dynamically changed based on actual user input
     user_details = {
-        "languages": "German, English, French",
-        "political_views": "Communist party Der Funke",
+        "languages": "Germ",
+        "political_views": "--",
         "age_range": "between 18-30",
-        "occupation": "Student",
+        "occupation": "--",
     }
     
     # Fill the prompt template with the user's details
